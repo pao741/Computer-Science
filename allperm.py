@@ -1,4 +1,4 @@
-# Assignment XX, Task YY
+# Assignment 7, Task 1
 # Name: Anuvit Kulanusataporn
 # Collaborators: 
 # Time Spent: -
@@ -12,7 +12,6 @@ def all_perm(n):
         result = all_perm(n-1)
         give_out = []
         for this_perm in result:
-            container = ()
             for j in range(n):
                 small_container = ()
                 index = 0
